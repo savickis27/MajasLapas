@@ -1,0 +1,51 @@
+.mainbox{
+	background-color: rgb(255, 26, 26);
+	width: 800px;
+	margin: 0px auto;
+}
+
+.menu{
+	background-color: lightgrey;
+}
+
+.leftside{
+	background-color: pink;
+	width: 100px;
+	float: left;
+}
+
+.main{
+	background-color: blue;
+	width: 600px;
+	float: left;
+}
+
+.rightside{
+	background-color: brown;
+	width: 100px;
+	float:left;
+}
+
+.footer{
+	background-color: green;
+
+}
+.menu{
+	height: 37px;
+	text-align: center;
+
+}
+
+.menu>ul>li{
+	display: inline;
+	padding: 10px 10px 10px 10px;
+	background-color: red;
+	position: relative;
+	top: 8px;
+	font-family: Tahoma, serif;
+	font-size: 14px;
+}
+.menu>ul>li>a{
+	text-decoration: none;
+	color: black;
+}
