@@ -1,51 +1,35 @@
 .mainbox{
 	background-color: rgb(255, 26, 26);
-	width: 800px;
+	height: 235px;
 	margin: 0px auto;
 }
 
-.menu{
-	background-color: lightgrey;
-}
 
-.leftside{
-	background-color: pink;
-	width: 100px;
-	float: left;
-}
 
-.main{
-	background-color: blue;
-	width: 600px;
-	float: left;
-}
 
-.rightside{
-	background-color: brown;
-	width: 100px;
-	float:left;
-}
-
-.footer{
-	background-color: green;
-
-}
 .menu{
 	height: 37px;
 	text-align: center;
 
 }
 
+
 .menu>ul>li{
 	display: inline;
-	padding: 10px 10px 10px 10px;
-	background-color: red;
+	padding: 10px 20px 10px 20px;
+	background-color: rgb(236,236,236); ;
 	position: relative;
-	top: 8px;
+	top: -290px;
 	font-family: Tahoma, serif;
 	font-size: 14px;
 }
 .menu>ul>li>a{
 	text-decoration: none;
 	color: black;
+}
+
+.kontaktinfo>p{
+	padding: 5px 5px;
+
+
 }
